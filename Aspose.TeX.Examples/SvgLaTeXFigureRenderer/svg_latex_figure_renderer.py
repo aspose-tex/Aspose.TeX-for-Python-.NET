@@ -8,7 +8,7 @@ from os import path
 class SvgLaTeXFigureRenderer:
     @staticmethod
     def run():
-        # ExStart:Features-SvgLaTeXFigureRenderer
+        # ExStart:Features-SvgLaTeXFigureRendering
         # Create rendering options.
         options = SvgFigureRendererOptions()
         # Specify the preamble.
@@ -36,4 +36,4 @@ class SvgLaTeXFigureRenderer:
         print(options.error_report)
         print()
         print(f"Size: {size.width}x{size.height}")
-        # ExEnd:Features-SvgLaTeXFigureRenderer
+        # ExEnd:Features-SvgLaTeXFigureRendering

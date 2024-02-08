@@ -10,7 +10,7 @@ from os import path
 class PngLaTeXFigureRenderer:
     @staticmethod
     def run():
-        # ExStart:Features-PngLaTeXFigureRenderer
+        # ExStart:Features-PngLaTeXFigureRendering
         # Create rendering options setting the image resolution to 150 dpi.
         options = PngFigureRendererOptions() 
         options.resolution = 150             # Specify the preamble.
@@ -38,4 +38,4 @@ class PngLaTeXFigureRenderer:
         print(options.error_report)
         print()
         print(f"Size: {size.width}x{size.height}")
-        # ExEnd:Features-PngLaTeXFigureRenderer
+        # ExEnd:Features-PngLaTeXFigureRendering
