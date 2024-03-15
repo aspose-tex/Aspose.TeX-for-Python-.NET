@@ -23,5 +23,5 @@ class LaTeXPngConversionAlternative:
         # Save pages file by file.
         for i in range(len(device.result)):
             with open(path.join(Util.output_directory, f"page-{(i + 1)}" + ".png"), "wb") as fs:
-                fs.write(device.result[i][0:0+len(device.result[i])])
+                fs.write(device.result[i][0:len(device.result[i])])
         # ExEnd:Conversion-LaTeXToPng-Alternative

@@ -2,7 +2,7 @@
 
 <!-- ![Version 24.1.0](https://img.shields.io/badge/nuget-v24.1.0-blue) ![Nuget](https://img.shields.io/nuget/dt/Aspose.TeX) -->
 
-[![banner](https://raw.githubusercontent.com/Aspose/aspose.github.io/master/img/banners/aspose_tex-for-net-banner.png)](https://releases.aspose.com/tex/python-net/)
+[![banner](https://products.aspose.com/tex/icons/aspose_tex-for-python-net-banner-1.png)](https://releases.aspose.com/tex/python-net/)
 
 [Product Page](https://products.aspose.com/tex/python-net/) | [Docs](https://docs.aspose.com/tex/python-net/) | [Demos](https://products.aspose.app/tex/family) | [API Reference](https://reference.aspose.com/tex/python-net/) | [Examples](https://github.com/aspose-tex/Aspose.TeX-for-Python-.NET) | [Blog](https://blog.aspose.com/category/tex/) | [Search](https://search.aspose.com/) | [Free Support](https://forum.aspose.com/c/tex) | [Temporary License](https://purchase.aspose.com/temporary-license/)
 
