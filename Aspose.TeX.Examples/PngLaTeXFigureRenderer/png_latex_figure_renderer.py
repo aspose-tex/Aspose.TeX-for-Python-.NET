@@ -13,7 +13,8 @@ class PngLaTeXFigureRenderer:
         # ExStart:Features-PngLaTeXFigureRendering
         # Create rendering options setting the image resolution to 150 dpi.
         options = PngFigureRendererOptions() 
-        options.resolution = 150             # Specify the preamble.
+        options.resolution = 150
+        # Specify the preamble.
         options.preamble = r"\usepackage{pict2e}"
         # Specify the scaling factor 300%.
         options.scale = 3000

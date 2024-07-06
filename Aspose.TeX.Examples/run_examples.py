@@ -25,6 +25,7 @@ from SvgLaTeXMathRenderer.svg_latex_math_renderer import *
 from PngLaTeXMathRenderer.png_latex_math_renderer import *
 from SvgLaTeXFigureRenderer.svg_latex_figure_renderer import *
 from PngMathRendererPlugin.png_math_renderer_plugin import *
+from LaTeXRepairerExample.latex_repairer_example import *
 from util import *
 
 # class RunExamples:
@@ -52,7 +53,7 @@ def main():
 
     # SetMeteredLicense.run()
 
-    FileSystemInputOutputAndXpsOutput.run()
+    # FileSystemInputOutputAndXpsOutput.run()
 
     # OverriddenJobNameAndTerminalOutputWrittenToDisk.run()
 
@@ -110,6 +111,14 @@ def main():
     # PngLaTeXFigureRenderer.run()
 
     # SvgLaTeXFigureRenderer.run()
+
+    # =====================================================
+    # =====================================================
+    #  Repairing LaTeX files
+    # =====================================================
+    # =====================================================
+
+    LaTeXRepairerExample.run()
 
     # =====================================================
     # =====================================================

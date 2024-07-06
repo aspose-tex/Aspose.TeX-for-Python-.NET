@@ -11,7 +11,8 @@ class PngLaTeXMathRenderer:
         # ExStart:Features-PngLaTeXMathRendering
         # Create rendering options setting the image resolution to 150 dpi.
         options = PngMathRendererOptions() 
-        options.resolution = 150             # Specify the preamble.
+        options.resolution = 150
+        # Specify the preamble.
         options.preamble = r"""\usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
