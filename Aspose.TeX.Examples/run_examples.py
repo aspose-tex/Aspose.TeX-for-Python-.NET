@@ -53,23 +53,23 @@ def main():
 
     # SetMeteredLicense.run()
 
-    # FileSystemInputOutputAndXpsOutput.run()
+    FileSystemInputOutputAndXpsOutput.run()
 
-    # OverriddenJobNameAndTerminalOutputWrittenToDisk.run()
+    OverriddenJobNameAndTerminalOutputWrittenToDisk.run()
 
-    # TypesetXpsWrittenToExternalStream.run()
+    TypesetXpsWrittenToExternalStream.run()
 
-    # ZipFileInputOutputAndPdfOutput.run()
+    ZipFileInputOutputAndPdfOutput.run()
 
-    # OverriddenJobNameAndTerminalOutputWrittenToZip.run()
+    OverriddenJobNameAndTerminalOutputWrittenToZip.run()
 
-    # TypesetPdfWrittenToExternalStream.run()
+    TypesetPdfWrittenToExternalStream.run()
 
-    # StreamInputImageOutputAndTerminalInput.run()
+    StreamInputImageOutputAndTerminalInput.run()
 
-    # CustomTeXFormatFileCreation.run()
+    CustomTeXFormatFileCreation.run()
 
-    # TypesetWithCustomTeXFormat.run()
+    TypesetWithCustomTeXFormat.run()
 
     # =====================================================
     # =====================================================
@@ -77,20 +77,20 @@ def main():
     # =====================================================
     # =====================================================
 
-    # LaTeXPngConversionSimplest.run()
-    # LaTeXPngConversionAlternative.run()
+    LaTeXPngConversionSimplest.run()
+    LaTeXPngConversionAlternative.run()
 
-    # LaTeXPdfConversionSimplest.run()
-    # LaTeXPdfConversionAlternative.run()
+    LaTeXPdfConversionSimplest.run()
+    LaTeXPdfConversionAlternative.run()
 
-    # LaTeXXpsConversionSimplest.run()
-    # LaTeXXpsConversionAlternative.run()
+    LaTeXXpsConversionSimplest.run()
+    LaTeXXpsConversionAlternative.run()
 
-    # LaTeXSvgConversionSimplest.run()
+    LaTeXSvgConversionSimplest.run()
 
-    # LaTeXRequiredInputFs.run()
+    LaTeXRequiredInputFs.run()
 
-    # LaTeXRequiredInputZip.run()
+    LaTeXRequiredInputZip.run()
 
     # =====================================================
     # =====================================================
@@ -98,9 +98,9 @@ def main():
     # =====================================================
     # =====================================================
 
-    # PngLaTeXMathRenderer.run()
+    PngLaTeXMathRenderer.run()
 
-    # SvgLaTeXMathRenderer.run()
+    SvgLaTeXMathRenderer.run()
 
     # =====================================================
     # =====================================================
@@ -108,9 +108,9 @@ def main():
     # =====================================================
     # =====================================================
 
-    # PngLaTeXFigureRenderer.run()
+    PngLaTeXFigureRenderer.run()
 
-    # SvgLaTeXFigureRenderer.run()
+    SvgLaTeXFigureRenderer.run()
 
     # =====================================================
     # =====================================================
@@ -126,7 +126,7 @@ def main():
     # =====================================================
     # =====================================================
 
-    # PngMathRendererPlugin.run()
+    PngMathRendererPlugin.run()
 
 
 if __name__ == '__main__':
