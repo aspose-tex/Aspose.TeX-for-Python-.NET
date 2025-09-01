@@ -19,7 +19,8 @@ class ZipFileInputOutputAndPdfOutput:
                 # Specify a ZIP archive working directory for the input. You can also specify a path inside the archive.
                 options.input_working_directory = InputZipDirectory(in_zip_stream, "in")
                 # Specify a ZIP archive working directory for the output.
-                options.output_working_directory = OutputZipDirectory(out_zip_stream)
+                output_directory = OutputZipDirectory(out_zip_stream)
+                options.output_working_directory = output_directory
                 # Specify the console as the output terminal.
                 options.terminal_out = OutputConsoleTerminal()  # Default value. Arbitrary assignment.
                 
@@ -33,5 +34,5 @@ class ZipFileInputOutputAndPdfOutput:
                 options.terminal_out.writer.write_line()
                 
                 # Finalize output ZIP archive.
-                options.output_working_directory.finish()
+                output_directory.finish()
         # ExEnd:TakeInputFromZip-WriteOutputToZip
